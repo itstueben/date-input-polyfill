@@ -109,13 +109,13 @@ const locales = {
   /* German (Germany) */
   'de_de-DE': {
     days: [
-      `Sonntag`,
-      `Montag`,
-      `Dienstag`,
-      `Mittwoch`,
-      `Donnerstag`,
-      `Freitag`,
-      `Samstag`
+      `So`,
+      `Mo`,
+      `Di`,
+      `Mi`,
+      `Do`,
+      `Fr`,
+      `Sa`
     ],
     months: [
       `Januar`,
