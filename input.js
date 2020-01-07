@@ -31,6 +31,10 @@ export default class Input {
             const format = this.format || 'yyyy-mm-dd';
             const parts = this.element.value.match(/(\d+)/g);
             let i = 0, fmt = {};
+            
+            if (parts.length !== 3) {
+              return null;
+            }
 
             format.replace(/(yyyy|dd|mm)/g, part=> {
               fmt[part] = i++;
